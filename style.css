@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: black;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: grey;
+    width: 100%;
+    margin: auto;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 0px 5px 5px 0px #fff;
+}
+.logo img{
+    width: 30px;
+    height: 30px;
+    box-shadow: 1px 15px 15px 1px rgba(0,0,0,.2);
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.navlinks a{
+    display: inline-block;
+    margin: 10px 30px;
+    color: whitesmoke;
+    transition: 1s;
+    font-size: 10px;
+}
+.navlinks a:hover{  
+    color: black;
+    transition: 1s;
+}
+.banner{
+    padding-bottom: 10px;
+    position: relative;
+    height: 88vh;
+}
+.banner-content{
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.banner-img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-img img{
+    max-width: 100%;
+    height: 500px;
+   margin-top: 50px;
+}
+#btn{
+    width: 50%;
+    border-radius: 8px;
+    border: none;
+    font-weight: 900;
+    cursor: pointer;
+    margin-top: 5px;
+}
+#btn:hover{
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+}
+hr{
+    font-weight: 900;
+    font-size: 30px;
+    background-color: white;
+    height: 10px;
+}
+.iphone{
+    color: whitesmoke;
+    padding: 40px;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.col-2 img{
+    width: 300px;
+    height: 390px;
+}
+.col-1 h2{
+    font-size: 50px;
+}
+.col-1 p{
+    text-align: justify;
+    line-height: 35px;
+    font-size: 18px;
+}
+#btn1{
+    width: 20%;
+    margin-top: 5px;
+    border-radius: 5px;
+    font-weight: 900;
+    border: 0;
+    cursor: pointer;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+}
+#btn1:hover{
+    background-color: white;
+    border: 0;
+    color: black;
+}
+.row-1{
+    display: grid;
+    grid-template-columns: repeat(2,350px);
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.box-1 img{
+    max-width: 350px;
+    height: 250px;
+}
+.products{
+    background-color: rgb(224, 222, 222);
+    padding-top: 40px;
+}
+.product-content{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.product-content h3{
+    font-size: 40px;
+}
+.product-content p{
+    font-size: 15px;
+}
+.products h4,a{
+    text-align: center;
+    color: black;
+    padding-bottom: 10px;
+}
+.products h4,a:hover{
+    color: white;
+}
+.poster img{
+    width: 100%;
+}
+.footer{
+    padding: 30px;
+    background-color: gray;
+    color: whitesmoke;
+}
+.footer-img img{
+    width: 50px;
+    height: 50px;
+}
+.row-3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-content h4, a{
+    margin-bottom: 3px;
+}
+.macbook{
+    background-color: rgb(224, 222, 222);
+}
+.apple{
+    background-color: rgb(224, 222, 222);
+}
+.box-2 img{
+    width: 350px;
+    border-radius: 5px;
+    height: 300px;
+    cursor: pointer;
+}
+.box-2 img:hover{
+    opacity: .5;
+    box-shadow: 1px 15px 15px 1px rgba(0,0,0,0.16);
+}
+.row-4{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.row-5{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.macbook-content{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.macbook-content p{
+    font-size: 15px;
+}
+#btn2{
+    width: 20%;
+    cursor: pointer;
+    transition: .5s;
+    font-weight: 900;
+}
+#btn2:hover{
+    background-color: black;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+}
+.apple-content{
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    position: absolute;
+    top: 16%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px){
+    .navlinks a{
+        margin: 10px 10px;
+    }
+    .banner-img img{
+        width: 350px;
+        height: 350px;
+    }
+    .banner-content{
+        top: 28%;
+    }
+    .banner-content p{
+        font-size: 10px;
+    }
+    .banner{
+        height: 63vh;
+    }
+    .row{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .col-1{
+        order: 2;
+    }
+    .col-2{
+        order: 1;
+    }
+    .row-1{
+        display: grid;
+        grid-template-columns: repeat(2,150px);
+    }
+    .box-1 img{
+        width: 150px;
+        height: 150px;
+    }
+    .row-3{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .footer-img p{
+        margin-bottom: 10px;
+    }
+    .footer-content h4{
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    #btn1{
+        width: 50%;
+    }
+    .box-2{
+        margin-bottom: 15px;
+    }
+    .row-4{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 2px;
+    }
+    .row-5{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+
+
+
+
